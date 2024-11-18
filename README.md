@@ -1,0 +1,2 @@
+# ChatGPTCustomAssistant
+使用OpenAI產生自訂的小助手
