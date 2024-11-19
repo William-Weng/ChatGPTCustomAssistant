@@ -553,7 +553,7 @@ class CustomAssistant:
                     value = contentDelta.text.value
                     if stream_event.event == "thread.message.delta": yield f'data: {value}\n\n'
                 except Exception as error:
-                    yield f'event: {error}\n\n'
+                    yield f'error: {error}\n\n'
 
     def __input_content__(self, content: str, role: str = "user") -> Message:
         """
